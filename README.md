@@ -42,6 +42,13 @@ Model Selection & Training:
 2. Train a custom model using the prepared dataset and analyze the performance.
 3. Deploy Streamlit and OpenCV to allow users a web ui in which to upload a video and have the video frames analyzed by your model.
 
+Expecation
+
+The expectations are for the following: 
+1) The code used to train the model.
+2) The model you trained.
+3) The Code used to run the UI and upload the video for inference.
+
 This problem set provides a clear path to address image analysis issues using OpenCV, with a focus on Facial Emotion Classification in video streams. It allows researchers or students to hone in on critical aspects such as data preprocessing, model selection, hyperparameter tuning, performance evaluation, and results interpretation.
     <br /><br />
 
@@ -88,7 +95,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 <br />
-See the https://github.com/Falcons-ai/fer_dds_challenge/issues for a full list of proposed features (and known issues).
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
