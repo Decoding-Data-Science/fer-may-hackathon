@@ -1,1 +1,0 @@
-print("FER May Hakathon")
