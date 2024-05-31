@@ -1,6 +1,11 @@
-# FER May Hakathon
+# Team FAI.CE: FER May Hakathon
 
 Facial Emotion Detection Hackathon Project, Create a model and test it uing 5 to 10 sec videos to detect emotions 
+
+Team Members:
+Bhavika Kaliya
+Mohamed Ratiq
+Alora Tabuco
 
 # Facial Emotion Recognition
 
