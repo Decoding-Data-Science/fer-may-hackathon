@@ -1,6 +1,6 @@
 # FER May Hakathon
 
-Facial Emotion Detection Hackathon Project, Create a model and test it uing 5 to 10 sec videos to detect emotions 
+Facial Emotion Detection Hackathon Project, Create a model and test it using 5 to 10 sec videos to detect emotions 
 
 # Facial Emotion Recognition
 
