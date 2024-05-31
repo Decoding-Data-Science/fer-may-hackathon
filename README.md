@@ -113,9 +113,13 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 Team Name: MIB
+
 Team Captain: Muhammad Idman Barghoob 
+
 Team Members: Muhammad Idman Barghoob
+
 Email id: ibarghoob@gmail.com
+
 Project Link: [https://github.com/Falcons-ai/fer_dds_challenge]
 
 
