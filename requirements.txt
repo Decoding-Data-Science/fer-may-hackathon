@@ -1,0 +1,4 @@
+# python=3.10
+tensorflow<2.11
+opencv-python
+streamlit
