@@ -7,6 +7,7 @@ Bhavika Kaliya
 Mohamed Ratiq
 Alora Tabuco
 
+Run Locally: streamlit run app.py --server.enableXsrfProtection false
 # Facial Emotion Recognition
 
 <div id="top"></div>
