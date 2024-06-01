@@ -1,4 +1,14 @@
-Team name: Cipher Pol
-Team members: Murtaza Mustafa, Shafaq Mandha
-captain: Murtaza Mustafa
-Email id: murtaza.0903@gmail.com
+# Cipher Pol
+
+## Team Members
+
+- **Murtaza Mustafa**
+- **Shafaq Mandha**
+
+## Captain
+
+- **Murtaza Mustafa**
+
+## Contact Information
+
+Email ID: murtaza.0903@gmail.com
