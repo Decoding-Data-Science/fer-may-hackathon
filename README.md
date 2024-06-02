@@ -2,7 +2,7 @@
 
 Facial Emotion Detection Hackathon Project, Create a model and test it using 5 to 10 sec videos to detect emotions 
 
-#Team Name: MIB
+# Team Name: MIB
 Team Captain: Muhammad Idman Barghoob
 
 Team Members: Muhammad Idman Barghoob
