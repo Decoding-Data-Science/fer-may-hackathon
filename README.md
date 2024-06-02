@@ -3,8 +3,8 @@
 Facial Emotion Detection Hackathon Project, Create a model and test it uing 5 to 10 sec videos to detect emotions 
 
 Team Members:
-Bhavika Kaliya
 Mohamed Ratiq
+Bhavika Kaliya
 Alora Tabuco
 
 ## Run Locally
