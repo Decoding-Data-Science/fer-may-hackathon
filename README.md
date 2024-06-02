@@ -8,6 +8,7 @@ Mohamed Ratiq
 Alora Tabuco
 
 Run Locally: streamlit run app.py --server.enableXsrfProtection false
+(This is only to allow file uploads when running locally)
 # Facial Emotion Recognition
 
 <div id="top"></div>
