@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-model_path = 'cnnModel.h5'
+model_path = 'mobilenet.h5'
 emotion_model = load_model(model_path)
 
 # Emotion labels
@@ -58,7 +58,7 @@ def process_video(video_path):
             # Extract the face ROI
             face = gray_frame[y:y+h, x:x+w]
             # Resize the face to 48x48 pixels
-            face_resized = cv2.resize(face, (48, 48))
+            face_resized = cv2.resize(face, (224, 224))
             # Normalize the pixel values
             face_normalized = face_resized / 255.0
             # Expand dimensions to match model input shape
