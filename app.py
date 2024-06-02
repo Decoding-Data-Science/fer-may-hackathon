@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-model_path = 'emotion_recognition_model.h5'
+model_path = 'cnnModel.h5'
 emotion_model = load_model(model_path)
 
 # Emotion labels
