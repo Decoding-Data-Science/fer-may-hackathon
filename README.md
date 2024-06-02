@@ -9,6 +9,10 @@ Team Members: Muhammad Idman Barghoob
 
 Email id: ibarghoob@gmail.com
 
+The notebook was created on google colab and ngrok was used for testing the streamlit app.
+
+The app runs successfully on using 'streamlit run app.py', assuming the required libraries are installed and the trained model is in the same directory. It takes a video 5-10 seconds and processes it frame by frame and displays the emotion on video playback annotating the detection box
+
 # Facial Emotion Recognition
 
 <div id="top"></div>
