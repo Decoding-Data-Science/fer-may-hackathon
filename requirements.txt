@@ -2,5 +2,5 @@ tensorflow
 scipy
 pillow
 streamlit
-python-opencv
+opencv-python
 opencv-python-headless
