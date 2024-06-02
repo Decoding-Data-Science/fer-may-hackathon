@@ -6,6 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
+# This can be changed between cnnModel.h5, emotion_recognition_model.h5, and mobilenet.h5
 model_path = 'mobilenet.h5'
 emotion_model = load_model(model_path)
 
