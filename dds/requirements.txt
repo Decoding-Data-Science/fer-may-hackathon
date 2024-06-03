@@ -2,5 +2,4 @@ streamlit
 streamlit-webrtc
 numpy
 opencv-python-headless
-tensorflow
-kearas
+keras
