@@ -34,7 +34,7 @@ if uploaded_file is not None:
         # convert frames to grayscale
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         # detect face in frame using haarcascase classifier
-        faces = face_cascade.detectMultiScale(gray, 1.1, 4)
+        faces = face_cascade.detectMultiScale(gray_frame, 1.1, 4)
 
         for (x, y, w, h) in faces:
             # extract region of interest and resize for model
