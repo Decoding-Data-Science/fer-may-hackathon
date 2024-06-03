@@ -2,14 +2,15 @@
 
 Facial Emotion Detection Hackathon Project, Create a model and test it using 5 to 10 second videos to detect emotions 
 
+**Please watch the demonstration video along with testing the app** as in the video, I discuss an *alternate approach* to doing this which I was not able to implement in time. In the video, I used clips from the CREMA-D dataset. CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (African America, Asian, Caucasian, Hispanic, and Unspecified). Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad) and four different emotion levels (Low, Medium, High, and Unspecified).
+
 ### Team Name: MLX
 ### Member: Suhail Ahmed | suhailz13ahmed@outlook.com
 ### Deployed Link: https://fer-dds-mlx.streamlit.app
 
-### Model Accuracy: 35% on the validation dataset - FER2013 Partial (as provided in the repository).
+### Model Accuracy: 35.77% on the validation dataset - FER2013 Partial (as provided in the repository).
 
 ## Implemented Methodology:
-
 
 ### Machine Learning Model
 
@@ -17,19 +18,19 @@ I implemented a CNN model and trained it on the FER 2013 partial daataset for 75
 
 The model is built using the Keras Sequential API. It consists of multiple layers of convolutional neural networks, batch normalization, max-pooling, and dropout layers to prevent overfitting. The architecture is designed to progressively extract higher-level features from the input images.
 
-Input Layer: The input layer expects images of shape (48, 48, 1), which corresponds to grayscale images of size 48x48 pixels.
+- **Input Layer:** The input layer expects images of shape (48, 48, 1), which corresponds to grayscale images of size 48x48 pixels.
 
-Convolutional Layers: These layers use 3x3 filters to convolve the input and extract features. The activation function used is ReLU (Rectified Linear Unit).
+- **Convolutional Layers:** These layers use 3x3 filters to convolve the input and extract features. The activation function used is ReLU (Rectified Linear Unit).
 
-Batch Normalization: This layer normalizes the outputs of the previous layer to stabilize and accelerate the training process.
+- **Batch Normalization:** This layer normalizes the outputs of the previous layer to stabilize and accelerate the training process.
 
-Max-Pooling Layers: These layers downsample the input by taking the maximum value in each 2x2 pool, reducing the spatial dimensions.
+- **Max-Pooling Layers:** These layers downsample the input by taking the maximum value in each 2x2 pool, reducing the spatial dimensions.
 
-Dropout Layers: These layers randomly drop a fraction of the units during training to prevent overfitting.
+- **Dropout Layers:** These layers randomly drop a fraction of the units during training to prevent overfitting.
 
-Flatten Layer: This layer flattens the 3D output from the convolutional layers into a 1D vector, which is fed into the dense (fully connected) layers.
+- **Flatten Layer:** This layer flattens the 3D output from the convolutional layers into a 1D vector, which is fed into the dense (fully connected) layers.
 
-Dense Layers: These layers perform the final classification. The last dense layer uses a softmax activation function to output probabilities for each of the seven emotion classes.
+- **Dense Layers:** These layers perform the final classification. The last dense layer uses a softmax activation function to output probabilities for each of the seven emotion classes.
 
 #### Compilation
 The model is compiled using the Adam optimizer with the specified learning rate. The loss function used is categorical cross-entropy, which is suitable for multi-class classification problems. Accuracy is used as the evaluation metric.
@@ -58,16 +59,23 @@ The Adam optimizer is chosen for its efficiency and adaptive learning rate, whic
 
 ### Streamlit Application
 
-Please nagivate to the dds directory and once you are in it, run
+Please nagivate to the dds directory and once you are in it, run:
 
+```console
 streamlit run app.py
+```
 
 Upon uploading you video, it will take some time to process it, depending on the number of pixels and length of the video. After its processing, you will be able to see all the detected emotions per frame and the most detected emotion is the predicted emotion.
 
+<br>
+
 <img width="766" alt="image" src="https://github.com/Suhail270/fer-may-hackathon/assets/57321434/fa700a38-f84c-441a-8a6c-5ef44daeff36">
 
-
+<br>
+<br>
 You may also scroll below and use the slider to view the emotion detected at a particular frame. This feature can be especially useful when multiple emotions are covered in the same video.
+<br>
+<br>
 
 ![image](https://github.com/Suhail270/fer-may-hackathon/assets/57321434/b0146f09-74a4-4e17-b0cf-3917d8c01072)
 
@@ -79,12 +87,12 @@ You may also scroll below and use the slider to view the emotion detected at a p
 ##### Libraries and Imports
 The following libraries are used in this project:
 
-streamlit for creating the web application.
-cv2 (OpenCV) for image processing and face detection.
-numpy for array manipulation.
-keras for loading the pre-trained emotion detection model.
-tempfile for handling temporary files.
-streamlit_webrtc for handling real-time video processing.
+- *streamlit* for creating the web application.
+- *cv2 (OpenCV)* for image processing and face detection.
+- *numpy* for array manipulation.
+- *keras* for loading the pre-trained emotion detection model.
+- *tempfile* for handling temporary files.
+- *streamlit_webrtc* for handling real-time video processing.
 
 ##### Model and Classifier Loading
 The custom-trained emotion detection model and Haar Cascade face classifier are loaded at the beginning of the script. This ensures that the models are ready for use when processing the video frames.
@@ -112,11 +120,7 @@ Displays the detected emotions and their counts.
 Provides a slider to navigate through the frames.
 
 ##### Main Function
-The main function sets up the Streamlit interface. It:
-
-Sets the title of the app.
-Provides a file uploader for the user to upload a video file.
-Calls the process_video function if a file is uploaded.
+The main function sets up the Streamlit interface. It sets the title of the app, provides a file uploader for the user to upload a video file and calls the process_video function if a file is uploaded.
 
 
 # Facial Emotion Recognition
