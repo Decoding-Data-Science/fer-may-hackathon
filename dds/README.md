@@ -1,8 +1,4 @@
-# AAICO Coding Round - Suhail Ahmed
 
-## Getting Started
-
-Running this project will require an active internet connection. There is also a report titled "Assignment Report" attached detailing the project, its architecture and features supporting visualization. I would strongly recommend reading the report for a hollistc insight into the application.
 
 ### Prerequisites
 
@@ -39,7 +35,3 @@ Please ensure that you are in the root directory: suhail-aaico. Upon doing so, p
 ```bash
 streamlit run app.py
 ```
-
-## Credits
-
-Special thank you to hugging face and https://github.com/kkdai/ and Hugging Face for making their resources publicly available.
