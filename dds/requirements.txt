@@ -8,4 +8,5 @@ torch
 torchvision
 torchaudio
 streamlit-webrtc
-opencv-python
+numpy
+opencv-python-headless
