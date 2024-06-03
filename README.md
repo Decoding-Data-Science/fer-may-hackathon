@@ -4,6 +4,7 @@ Facial Emotion Detection Hackathon Project, Create a model and test it using 5 t
 
 ### Team Name: MLX
 ### Member: Suhail Ahmed | suhailz13ahmed@outlook.com
+### Deployed Link: https://fer-dds-mlx.streamlit.app
 
 ### Model Accuracy: 35% on the validation dataset - FER2013 Partial (as provided in the repository).
 
