@@ -9,6 +9,9 @@ import tempfile
 # load trained model
 model = load_model('facial_emotion_recognition_model.h5')
 
+# cascase just for face detection box
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
 # emotions
 emotions = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
 
@@ -31,7 +34,7 @@ if uploaded_file is not None:
         # convert frames to grayscale
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         # detect face in frame using haarcascase classifier
-        faces = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml').detectMultiScale(gray_frame, 1.1, 4)
+        faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 
         for (x, y, w, h) in faces:
             # extract region of interest and resize for model
