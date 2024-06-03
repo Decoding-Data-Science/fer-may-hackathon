@@ -16,6 +16,9 @@ def main():
     # Title of the app
     st.title("Video Input App with Face Detection")
 
+    with st.expander("Demo Video"):
+        st.video('assets/demo.webm')
+
     # File uploader for video input
     video_file = st.file_uploader("Upload a video file", type=["mp4", "mov", "avi"])
 
