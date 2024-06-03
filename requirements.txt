@@ -1,4 +1,7 @@
-streamlit
-opencv-python
-numpy
-tensorflow
+opencv-contrib-python==4.6.0.66
+opencv-python==4.6.0.66
+opencv-python-headless==3.4.18.65
+tensorflow==2.12.0
+tensorflow-estimator==2.12.0
+tensorflow-io-gcs-filesystem==0.34.0
+numpy==1.23.5
