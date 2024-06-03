@@ -1,12 +1,5 @@
 streamlit
-pdf2image
-PyPDF2
-streamlit_extras
-langdetect
-deep_translator
-torch
-torchvision
-torchaudio
 streamlit-webrtc
 numpy
 opencv-python-headless
+kearas
