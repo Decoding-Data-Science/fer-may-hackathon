@@ -3,12 +3,19 @@
 Facial Emotion Detection Hackathon Project, Create a model and test it uing 5 to 10 sec videos to detect emotions 
 
 Team Members:
-Bhavika Kaliya
 Mohamed Ratiq
+Bhavika Kaliya
 Alora Tabuco
 
-Run Locally: streamlit run app.py --server.enableXsrfProtection false
+## Run Locally
+streamlit run app.py --server.enableXsrfProtection false
 (This is only to allow file uploads when running locally)
+
+## View Deployment Link
+https://fer-may-hackathon-faice.streamlit.app/ 
+
+Please note that due to limitations with streamlit cloud - the performance is relatively slow on deployment.
+
 # Facial Emotion Recognition
 
 <div id="top"></div>
