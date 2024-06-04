@@ -1,6 +1,6 @@
 # FER May Hakathon
 
-Facial Emotion Detection Hackathon Project, Create a model and test it uing 5 to 10 sec videos to detect emotions 
+Facial Emotion Detection Hackathon Project, Create a model and test it using 5 to 10 sec videos to detect emotions 
 
 # Facial Emotion Recognition
 
@@ -112,6 +112,13 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
+Team Name: MIB
+
+Team Captain: Muhammad Idman Barghoob 
+
+Team Members: Muhammad Idman Barghoob
+
+Email id: ibarghoob@gmail.com
 
 Project Link: [https://github.com/Falcons-ai/fer_dds_challenge]
 
