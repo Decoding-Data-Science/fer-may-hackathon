@@ -1,0 +1,6 @@
+tensorflow
+keras
+streamlit
+opencv-python 
+numpy 
+tempfile
